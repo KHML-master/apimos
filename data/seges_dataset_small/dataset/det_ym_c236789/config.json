@@ -1,0 +1,58 @@
+{
+    "directories":[
+        {
+            "name": "cam002",
+            "mode": "train",
+            "split_values":{
+                "train": 0.8,
+                "validation": 0.2,
+                "test": 0.0
+            }
+        },
+        {
+            "name": "cam003",
+            "mode": "train",
+            "split_values":{
+                "train": 0.8,
+                "validation": 0.2,
+                "test": 0.0
+            }
+        },
+        {
+            "name": "cam006",
+            "mode": "train",
+            "split_values":{
+                "train": 0.0,
+                "validation": 0.0,
+                "test": 1.0
+            }
+        },
+        {
+            "name": "cam007",
+            "mode": "train",
+            "split_values":{
+                "train": 0.8,
+                "validation": 0.2,
+                "test": 0.0
+            }
+        },
+        {
+            "name": "cam008",
+            "mode": "train",
+            "split_values":{
+                "train": 0.8,
+                "validation": 0.2,
+                "test": 0.0
+            }
+        },
+        {
+            "name": "cam009",
+            "mode": "train",
+            "split_values":{
+                "train": 0.8,
+                "validation": 0.2,
+                "test": 0.0
+            }
+        }
+    ]
+}

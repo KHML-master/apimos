@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<annotations>
+  <version>1.1</version>
+  <meta>
+    <task>
+      <id>20</id>
+      <name>calibration_cam005</name>
+      <size>1</size>
+      <mode>annotation</mode>
+      <overlap>0</overlap>
+      <bugtracker></bugtracker>
+      <created>2021-05-30 14:12:04.788944+00:00</created>
+      <updated>2021-05-30 14:42:38.273400+00:00</updated>
+      <start_frame>0</start_frame>
+      <stop_frame>0</stop_frame>
+      <frame_filter></frame_filter>
+      <labels>
+        <label>
+          <name>point</name>
+          <color>#eccdb3</color>
+          <attributes>
+            <attribute>
+              <name>world_x</name>
+              <mutable>False</mutable>
+              <input_type>number</input_type>
+              <default_value>0</default_value>
+              <values>0
+1500
+0.01</values>
+            </attribute>
+            <attribute>
+              <name>world_y</name>
+              <mutable>False</mutable>
+              <input_type>number</input_type>
+              <default_value>0</default_value>
+              <values>0
+1500
+0.01</values>
+            </attribute>
+          </attributes>
+        </label>
+      </labels>
+      <segments>
+        <segment>
+          <id>19</id>
+          <start>0</start>
+          <stop>0</stop>
+          <url>http://cvat.lyngevision.dk/?id=19</url>
+        </segment>
+      </segments>
+      <owner>
+        <username>mlynge</username>
+        <email></email>
+      </owner>
+      <assignee></assignee>
+    </task>
+    <dumped>2021-05-30 14:42:48.937936+00:00</dumped>
+  </meta>
+  <image id="0" name="cam005.jpg" width="407" height="720">
+    <points label="point" occluded="0" source="manual" points="384.29,417.97" z_order="0">
+      <attribute name="world_y">481.5</attribute>
+      <attribute name="world_x">200</attribute>
+    </points>
+    <points label="point" occluded="0" source="manual" points="7.70,407.30" z_order="0">
+      <attribute name="world_y">481.5</attribute>
+      <attribute name="world_x">0</attribute>
+    </points>
+    <points label="point" occluded="0" source="manual" points="353.89,273.83" z_order="0">
+      <attribute name="world_y">359.8</attribute>
+      <attribute name="world_x">200</attribute>
+    </points>
+    <points label="point" occluded="0" source="manual" points="56.54,267.90" z_order="0">
+      <attribute name="world_y">359.8</attribute>
+      <attribute name="world_x">0</attribute>
+    </points>
+    <points label="point" occluded="0" source="manual" points="321.95,163.09" z_order="0">
+      <attribute name="world_y">197.67</attribute>
+      <attribute name="world_x">200</attribute>
+    </points>
+    <points label="point" occluded="0" source="manual" points="99.15,161.09" z_order="0">
+      <attribute name="world_y">197.67</attribute>
+      <attribute name="world_x">0</attribute>
+    </points>
+    <points label="point" occluded="0" source="manual" points="298.73,90.73" z_order="0">
+      <attribute name="world_y">0</attribute>
+      <attribute name="world_x">200</attribute>
+    </points>
+    <points label="point" occluded="0" source="manual" points="132.73,88.43" z_order="0">
+      <attribute name="world_y">0</attribute>
+      <attribute name="world_x">0</attribute>
+    </points>
+  </image>
+</annotations>
